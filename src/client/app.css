@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Princess+Sofia');
+
+
+h1 {
+  color: #6A8052;
+  text-shadow: 1px 3px #455435;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}
+
+.header {
+ background-image: url("background.png"); /* The image used */
+ height: 100vh; /* You must set a specified height */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.name {
+  font-size: 160px;
+  font-family: 'Princess Sofia', cursive;
+  line-height: 1.45 !important;
+}
+
+.subtitle {
+  font-family: 'Amatic SC', cursive;
+  color: #455435;
+  font-size: 36px !important;
+  line-height: 0 !important;
+  font-weight: bold !important;
+
+}
+
+.bg {
+  background: #d1ebb5;
+}
+
+.lamp {
+  position: relative;
+  background-image: url("lamp.png"); /* The image used */
+  height: 95vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding: 130px;
+  bottom: 0px;
+}
+
+.lamptext {
+  width: 45%;
+  margin: 50px auto;
+  font-size: 1.12em;
+}
+
+.intro {
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+
+}
+
+.mid {
+  position: relative;
+  top: -40px;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 8%;
+  right: 0;
+}
+
+.click {
+  background-color: #FFF;
+  color: white;
+  padding: 10px;
+  border: 2px solid #668467;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.click:hover {
+  box-shadow: 3px 3px #465e47;
+}
+
+a:link {
+  color: #668467;
+}
+a:visited {
+  color: #668467;
+}
+a:hover {
+  color: #465e47;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 90%;
+  margin: 5px auto;
+}
